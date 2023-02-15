@@ -1,0 +1,106 @@
+Body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar{
+  text-decoration:none !important;
+  display:inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 70vh;
+}
+
+.navbar-menu{
+  color: black;
+  font-size: 0.7vw;
+  text-decoration: none !important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  transition: 0.3s ease-in;
+}
+
+.navbar-menu:hover{
+  color: gray;
+  font-size: 0.8vw;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  transition: 0.3s ease-out;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media screen and (max-width:420px) {
+  .navbar{
+    text-decoration:none !important;
+    display: inline-block-flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    white-space: nowrap;
+  }
+  
+  .navbar-menu{
+    color: black;
+    font-size: 3px;
+    text-decoration: none !important;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .navbar-menu:hover{
+    color: gray;
+    font-size: 3.5px;
+    justify-content: center;
+    justify-items: center;
+    transition: 0.3s ease;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .navbar{
+    text-decoration:none !important;
+    display: inline-block-flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    white-space: nowrap;
+  }
+  
+  .navbar-menu{
+    color: black;
+    font-size: 5px;
+    text-decoration: none !important;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .navbar-menu:hover{
+    color: gray;
+    font-size: 5.5px;
+    justify-content: center;
+    justify-items: center;
+    transition: 0.3s ease;
+  }
+}

@@ -1,0 +1,136 @@
+Body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Press Start 2P', cursive !important;
+    max-height: 100vh !important;
+}
+
+.name{
+    font-family: 'Press Start 2P', cursive !important;
+    position: relative;
+    font-size: 2rem;
+    padding: 2px 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tw-1{
+    font-size: 2vw;
+    margin-top: 100px;
+}
+
+.image-btn{
+    box-Shadow: 0px 0px 3px 0px #b1b3b1;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    align-Content: center;
+    align-Items: center;
+}
+
+.image-btn:hover{
+    box-Shadow: 0px 0px 3px 0px #b1b3b1;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    align-Content: center;
+    align-Items: center;
+    transition: 0.5s ease-out;
+}
+
+.about{
+    line-height: 2;
+    font-size: 1.2vh;
+  }
+  
+.download{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.download:hover{
+    color: gray;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.hrline{
+    border: 0.063rem solid #bababa;
+    border-radius: 5px; 
+} 
+
+.anim-typewriter{
+    animation:
+            blinkTextCursor 2000ms  infinite both;
+  }
+  @keyframes blinkTextCursor{
+    from{
+        border-top-left-color: rgb(0, 255, 64);
+    }
+    to{
+        border-top-left-color: rgb(0, 255, 85);
+    }
+  }
+ 
+
+@media screen and (max-width: 420px) {
+    .about{
+        font-size: 7px;
+      }
+
+    .hrline{
+        border: 0.023rem solid #bababa;
+        border-radius: 5px; 
+    }
+    .name{
+        font-family: 'Press Start 2P', cursive !important;
+        position: relative;
+        font-size: 3px;
+        padding: 2px 10px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .image-btn{
+        box-Shadow: 0px 0px 3px 0px #b1b3b1;
+        border: 3px solid rgb(255, 115, 0);
+        max-width: 100%;
+        width: 100px;
+        height: 100px;
+        align-Content: center;
+        align-Items: center;
+    }
+    
+    .image-btn:hover{
+        box-Shadow: 0px 0px 3px 0px #b1b3b1;
+        border: 3px solid rgb(255, 115, 0);
+        max-width: 100%;
+        width: 100px;
+        height: 100px;
+        align-Content: center;
+        align-Items: center;
+        transition: 2s ease;
+    }
+}
