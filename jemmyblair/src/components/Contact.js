@@ -5,10 +5,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
-import Typography from '@mui/material/Typography';
 import Typewriter from 'typewriter-effect';
 import Jump from 'react-reveal/Jump';
-import Button from '@mui/material/Button'
+import { FaSchool } from "react-icons/fa";
+import { AiOutlineMail , AiOutlineFacebook , AiOutlineInstagram , AiOutlineGithub } from "react-icons/ai";
 
 
 export default function Contact() {
@@ -41,9 +41,16 @@ export default function Contact() {
             }}
           >
           </Grid>        
-          <p mt={2} className="name anim-typewriter">
-                  Contact
-          </p>                                           
+          <div className="textcenter">
+            <div className="contacttext">
+              <hr className="hrline"></hr>
+              <p mt={2}><AiOutlineMail/> EMAIL : <a href="mailto:nontasabs@gmail.com" target="_blank">NONTASABS@GMAIL.COM</a><br></br>
+                <AiOutlineFacebook/> FACEBOOK : <Link to="https://www.facebook.com/j.nontasab/" target="_blank"><a>JAMES NONTASAB</a></Link><br></br>
+                <AiOutlineInstagram/> INSTAGRAM : <Link to="https://www.instagram.com/jemmyblair/" target="_blank"><a>JEMMYBLAIR</a></Link><br></br>
+                <AiOutlineGithub/> GITHUB : <Link to="https://github.com/jamesmhee/" target="_blank"><a>JAMESMHEE</a></Link>
+              </p>
+            </div>
+          </div>                                          
         </Grid>                  
       </Container>
       </Jump>

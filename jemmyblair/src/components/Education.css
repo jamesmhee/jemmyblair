@@ -4,97 +4,73 @@ Body{
     max-height: 100vh !important;
 }
 
-.name{
-    font-family: 'Press Start 2P', cursive !important;
-    position: relative;
-    font-size: 2vh;
-    padding: 2px 10px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
+.textleft{
+    text-align: left;
 }
 
-.tw-1{
-    font-size: 2vw;
-    margin-top: 100px;
+.education1{
+    white-space: normal;
+    margin-top: 5vh;
+    margin-bottom: 30px;
+    display: inline-flex;
+    text-align: left;
+    line-height: 2;
+    font-size: 1.2vh;
 }
 
-.image-btn{
-    box-Shadow: 0px 0px 3px 0px #b1b3b1;
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    align-Content: center;
-    align-Items: center;
+.education{
+    white-space: normal;
+    margin-top: 10px;
+    display: inline-flex;
+    text-align: left;
+    line-height: 2;
+    font-size: 1.2vh;
 }
 
-.image-btn:hover{
-    box-Shadow: 0px 0px 3px 0px #b1b3b1;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    align-Content: center;
-    align-Items: center;
-    transition: 0.5s ease-out;
-}
-
-.anim-typewriter{
-    animation:
-            blinkTextCursor 2000ms  infinite both;
+a:link {
+    text-decoration: none;
   }
-  @keyframes blinkTextCursor{
-    from{
-        border-top-left-color: rgb(0, 255, 64);
-    }
-    to{
-        border-top-left-color: rgb(0, 255, 85);
-    }
+  
+  a:visited {
+    text-decoration: none;
   }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.hrline{
+    border: 0.063rem solid #bababa;
+    border-radius: 5px;
+    margin-right: 15px;
+} 
+img{
+    max-width: 4.5rem;
+    max-height: 100%;
+    width: 100%;
+    filter: grayscale(20%);
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 420px) {
-    .name{
-        font-family: 'Press Start 2P', cursive !important;
-        position: relative;
-        font-size: 3px;
-        padding: 2px 10px;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
+    img{
+        max-width: 1.5rem;
+        width: 100%;
+        filter: grayscale(20%);
+        margin-right: 10px;
     }
 
-    .anim-typewriter{
-    animation:
-            blinkTextCursor 2000ms  infinite both;
-  }
-  @keyframes blinkTextCursor{
-    from{
-        border-top-left-color: rgb(0, 255, 64);
-    }
-    to{
-        border-top-left-color: rgb(0, 255, 85);
-    }
-  }
+    .education .education1{
+        font-size: 7px;
+      }
 
-    .image-btn{
-        box-Shadow: 0px 0px 3px 0px #b1b3b1;
-        border: 3px solid rgb(255, 115, 0);
-        max-width: 100%;
-        width: 100px;
-        height: 100px;
-        align-Content: center;
-        align-Items: center;
-    }
-    
-    .image-btn:hover{
-        box-Shadow: 0px 0px 3px 0px #b1b3b1;
-        border: 3px solid rgb(255, 115, 0);
-        max-width: 100%;
-        width: 100px;
-        height: 100px;
-        align-Content: center;
-        align-Items: center;
-        transition: 2s ease;
+    .hrline{
+        border: 0.023rem solid #bababa;
+        border-radius: 5px; 
+        margin-right: 15px;
     }
 }
